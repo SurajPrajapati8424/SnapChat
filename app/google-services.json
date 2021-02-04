@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "63499140595",
+    "project_id": "snapchat-dr-psychorider",
+    "storage_bucket": "snapchat-dr-psychorider.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:63499140595:android:1ea462af658040bfe8a686",
+        "android_client_info": {
+          "package_name": "com.android.application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "63499140595-m4o0055odl4rfadli1jqgqdp1gd7t9cf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.application",
+            "certificate_hash": "3ce9b79add112179ecbc6c0f34d6d406957544c1"
+          }
+        },
+        {
+          "client_id": "63499140595-a8kis4aj2b8nukmdb066jnnmed8pskm5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9DJPIbrk9KHDDcCjQj4PcpG78RNJIep8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "63499140595-a8kis4aj2b8nukmdb066jnnmed8pskm5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

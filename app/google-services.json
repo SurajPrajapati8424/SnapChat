@@ -1,33 +1,42 @@
 {
   "project_info": {
-    "project_number": "695062461239",
-    "project_id": "snapchat-psycho-dev",
-    "storage_bucket": "snapchat-psycho-dev.appspot.com"
+    "project_number": "281234975661",
+    "firebase_url": "https://snapchat-psycho-dev2-default-rtdb.firebaseio.com",
+    "project_id": "snapchat-psycho-dev2",
+    "storage_bucket": "snapchat-psycho-dev2.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:695062461239:android:9dd33c445e70756bf638b2",
+        "mobilesdk_app_id": "1:281234975661:android:29cbd28e8351761d64cf24",
         "android_client_info": {
           "package_name": "com.dr.psycho.snapchat"
         }
       },
       "oauth_client": [
         {
-          "client_id": "695062461239-hpvenfg7ffki78auq2f9b0ejmogml23r.apps.googleusercontent.com",
+          "client_id": "281234975661-2ub955pa1uvt2u1447bdne4ko19odbc0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dr.psycho.snapchat",
+            "certificate_hash": "3ce9b79add112179ecbc6c0f34d6d406957544c1"
+          }
+        },
+        {
+          "client_id": "281234975661-9d8ruaund038lainmfklsh8tkhqnqjqd.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBdGa3ZOpg9Ywvr05UHeLDqwl-mnwauGOI"
+          "current_key": "AIzaSyCi_T7a6unsBRduuBxmjWY722Ocsipx6bc"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "695062461239-hpvenfg7ffki78auq2f9b0ejmogml23r.apps.googleusercontent.com",
+              "client_id": "281234975661-9d8ruaund038lainmfklsh8tkhqnqjqd.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

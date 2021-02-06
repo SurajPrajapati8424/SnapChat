@@ -22,7 +22,7 @@ public class LoginActivity extends AppCompatActivity {
     //Step 01
     public Button mLogin;
     private EditText mEmail,mPassword;
-    ProgressBar mLoading;
+    public ProgressBar mLoading;
 
     //Step 05
     private FirebaseAuth mAuth;
@@ -62,6 +62,7 @@ public class LoginActivity extends AppCompatActivity {
         mLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                mLoading.setVisibility(View.VISIBLE);
                 //Step 10
                 final String email = mEmail.getText().toString();
                 final  String password = mPassword.getText().toString();
@@ -69,9 +70,14 @@ public class LoginActivity extends AppCompatActivity {
                 mAuth.signInWithEmailAndPassword(email,password).addOnCompleteListener(LoginActivity.this, new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
+
                 //If isn't Successful Login
                         if (!task.isSuccessful()){
+                            mLoading.setVisibility(View.GONE);
                             Toast.makeText(LoginActivity.this,"Sign in Error",Toast.LENGTH_SHORT).show();
+                        }else
+                        {
+                            Toast.makeText(LoginActivity.this,"Sign in Complete",Toast.LENGTH_SHORT).show();
                         }
                     }
                 });
